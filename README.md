@@ -1,5 +1,10 @@
 This is an older version (1.5) of tiny-cuda-nn. `has_networks` undefined error occurs when installing pytorch extension from the official repository. This may help if you have the same problem.
 
+**Remark** Check `/dependencies/cutlass` before you install. If empty, you shall run this first.
+```
+git submodule update --init --recursive
+```
+
 Below comes the original 'README.md' from Nvidia.
 
 # Tiny CUDA Neural Networks ![](https://github.com/NVlabs/tiny-cuda-nn/workflows/CI/badge.svg)
