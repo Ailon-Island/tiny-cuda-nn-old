@@ -1,8 +1,17 @@
 This is an older version (1.5) of tiny-cuda-nn. `has_networks` undefined error occurs when installing pytorch extension from the official repository. This may help if you have the same problem.
 
-**Remark** Check `/dependencies/cutlass` before you install. If empty, you shall run this first.
+**[Remark]** Check `./dependencies/cutlass` before you install. If empty, you shall run this first.
 ```
 git submodule update --init --recursive
+```
+
+**[PyTorch Extension]** To install pytorch extension from source, you need to go to `./bindings/torch` and run the following command.
+```
+python setup.py install
+```
+If you meet some error, make sure to do this before a retry.
+```
+python setup.py clean
 ```
 
 Below comes the original 'README.md' from Nvidia.
