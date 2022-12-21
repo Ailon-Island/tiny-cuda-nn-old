@@ -14,7 +14,7 @@ If you meet some error, make sure to do this before a retry.
 python setup.py clean
 ```
 
-Below comes the original 'README.md' from Nvidia.
+Below comes the original `README.md` from Nvidia.
 
 # Tiny CUDA Neural Networks ![](https://github.com/NVlabs/tiny-cuda-nn/workflows/CI/badge.svg)
 
